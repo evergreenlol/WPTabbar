@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D8F5551F9D8B6A002F9A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F5541F9D8B6A002F9A44 /* AppDelegate.swift */; };
+		F7D8F5571F9D8B6A002F9A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F5561F9D8B6A002F9A44 /* ViewController.swift */; };
+		F7D8F55A1F9D8B6A002F9A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D8F5581F9D8B6A002F9A44 /* Main.storyboard */; };
+		F7D8F55C1F9D8B6A002F9A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D8F55B1F9D8B6A002F9A44 /* Assets.xcassets */; };
+		F7D8F55F1F9D8B6A002F9A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D8F55D1F9D8B6A002F9A44 /* LaunchScreen.storyboard */; };
+		F7D8F56A1F9D8B6A002F9A44 /* WPTabbarCustomizedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F5691F9D8B6A002F9A44 /* WPTabbarCustomizedTests.swift */; };
+		F7D8F5751F9D8B6A002F9A44 /* WPTabbarCustomizedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F5741F9D8B6A002F9A44 /* WPTabbarCustomizedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7D8F5661F9D8B6A002F9A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D8F5491F9D8B6A002F9A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D8F5501F9D8B6A002F9A44;
+			remoteInfo = WPTabbarCustomized;
+		};
+		F7D8F5711F9D8B6A002F9A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D8F5491F9D8B6A002F9A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D8F5501F9D8B6A002F9A44;
+			remoteInfo = WPTabbarCustomized;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7D8F5511F9D8B6A002F9A44 /* WPTabbarCustomized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPTabbarCustomized.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D8F5541F9D8B6A002F9A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7D8F5561F9D8B6A002F9A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7D8F5591F9D8B6A002F9A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7D8F55B1F9D8B6A002F9A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D8F55E1F9D8B6A002F9A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7D8F5601F9D8B6A002F9A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D8F5651F9D8B6A002F9A44 /* WPTabbarCustomizedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPTabbarCustomizedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D8F5691F9D8B6A002F9A44 /* WPTabbarCustomizedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPTabbarCustomizedTests.swift; sourceTree = "<group>"; };
+		F7D8F56B1F9D8B6A002F9A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D8F5701F9D8B6A002F9A44 /* WPTabbarCustomizedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPTabbarCustomizedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D8F5741F9D8B6A002F9A44 /* WPTabbarCustomizedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPTabbarCustomizedUITests.swift; sourceTree = "<group>"; };
+		F7D8F5761F9D8B6A002F9A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D8F54E1F9D8B6A002F9A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D8F5621F9D8B6A002F9A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D8F56D1F9D8B6A002F9A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D8F5481F9D8B6A002F9A44 = {
+			isa = PBXGroup;
+			children = (
+				F7D8F5531F9D8B6A002F9A44 /* WPTabbarCustomized */,
+				F7D8F5681F9D8B6A002F9A44 /* WPTabbarCustomizedTests */,
+				F7D8F5731F9D8B6A002F9A44 /* WPTabbarCustomizedUITests */,
+				F7D8F5521F9D8B6A002F9A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D8F5521F9D8B6A002F9A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F5511F9D8B6A002F9A44 /* WPTabbarCustomized.app */,
+				F7D8F5651F9D8B6A002F9A44 /* WPTabbarCustomizedTests.xctest */,
+				F7D8F5701F9D8B6A002F9A44 /* WPTabbarCustomizedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D8F5531F9D8B6A002F9A44 /* WPTabbarCustomized */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F5541F9D8B6A002F9A44 /* AppDelegate.swift */,
+				F7D8F5561F9D8B6A002F9A44 /* ViewController.swift */,
+				F7D8F5581F9D8B6A002F9A44 /* Main.storyboard */,
+				F7D8F55B1F9D8B6A002F9A44 /* Assets.xcassets */,
+				F7D8F55D1F9D8B6A002F9A44 /* LaunchScreen.storyboard */,
+				F7D8F5601F9D8B6A002F9A44 /* Info.plist */,
+			);
+			path = WPTabbarCustomized;
+			sourceTree = "<group>";
+		};
+		F7D8F5681F9D8B6A002F9A44 /* WPTabbarCustomizedTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F5691F9D8B6A002F9A44 /* WPTabbarCustomizedTests.swift */,
+				F7D8F56B1F9D8B6A002F9A44 /* Info.plist */,
+			);
+			path = WPTabbarCustomizedTests;
+			sourceTree = "<group>";
+		};
+		F7D8F5731F9D8B6A002F9A44 /* WPTabbarCustomizedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F5741F9D8B6A002F9A44 /* WPTabbarCustomizedUITests.swift */,
+				F7D8F5761F9D8B6A002F9A44 /* Info.plist */,
+			);
+			path = WPTabbarCustomizedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D8F5501F9D8B6A002F9A44 /* WPTabbarCustomized */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D8F5791F9D8B6A002F9A44 /* Build configuration list for PBXNativeTarget "WPTabbarCustomized" */;
+			buildPhases = (
+				F7D8F54D1F9D8B6A002F9A44 /* Sources */,
+				F7D8F54E1F9D8B6A002F9A44 /* Frameworks */,
+				F7D8F54F1F9D8B6A002F9A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPTabbarCustomized;
+			productName = WPTabbarCustomized;
+			productReference = F7D8F5511F9D8B6A002F9A44 /* WPTabbarCustomized.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D8F5641F9D8B6A002F9A44 /* WPTabbarCustomizedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D8F57C1F9D8B6A002F9A44 /* Build configuration list for PBXNativeTarget "WPTabbarCustomizedTests" */;
+			buildPhases = (
+				F7D8F5611F9D8B6A002F9A44 /* Sources */,
+				F7D8F5621F9D8B6A002F9A44 /* Frameworks */,
+				F7D8F5631F9D8B6A002F9A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D8F5671F9D8B6A002F9A44 /* PBXTargetDependency */,
+			);
+			name = WPTabbarCustomizedTests;
+			productName = WPTabbarCustomizedTests;
+			productReference = F7D8F5651F9D8B6A002F9A44 /* WPTabbarCustomizedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7D8F56F1F9D8B6A002F9A44 /* WPTabbarCustomizedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D8F57F1F9D8B6A002F9A44 /* Build configuration list for PBXNativeTarget "WPTabbarCustomizedUITests" */;
+			buildPhases = (
+				F7D8F56C1F9D8B6A002F9A44 /* Sources */,
+				F7D8F56D1F9D8B6A002F9A44 /* Frameworks */,
+				F7D8F56E1F9D8B6A002F9A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D8F5721F9D8B6A002F9A44 /* PBXTargetDependency */,
+			);
+			name = WPTabbarCustomizedUITests;
+			productName = WPTabbarCustomizedUITests;
+			productReference = F7D8F5701F9D8B6A002F9A44 /* WPTabbarCustomizedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D8F5491F9D8B6A002F9A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wp;
+				TargetAttributes = {
+					F7D8F5501F9D8B6A002F9A44 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F7D8F5641F9D8B6A002F9A44 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7D8F5501F9D8B6A002F9A44;
+					};
+					F7D8F56F1F9D8B6A002F9A44 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7D8F5501F9D8B6A002F9A44;
+					};
+				};
+			};
+			buildConfigurationList = F7D8F54C1F9D8B6A002F9A44 /* Build configuration list for PBXProject "WPTabbarCustomized" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D8F5481F9D8B6A002F9A44;
+			productRefGroup = F7D8F5521F9D8B6A002F9A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D8F5501F9D8B6A002F9A44 /* WPTabbarCustomized */,
+				F7D8F5641F9D8B6A002F9A44 /* WPTabbarCustomizedTests */,
+				F7D8F56F1F9D8B6A002F9A44 /* WPTabbarCustomizedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D8F54F1F9D8B6A002F9A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D8F55F1F9D8B6A002F9A44 /* LaunchScreen.storyboard in Resources */,
+				F7D8F55C1F9D8B6A002F9A44 /* Assets.xcassets in Resources */,
+				F7D8F55A1F9D8B6A002F9A44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D8F5631F9D8B6A002F9A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D8F56E1F9D8B6A002F9A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D8F54D1F9D8B6A002F9A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D8F5571F9D8B6A002F9A44 /* ViewController.swift in Sources */,
+				F7D8F5551F9D8B6A002F9A44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D8F5611F9D8B6A002F9A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D8F56A1F9D8B6A002F9A44 /* WPTabbarCustomizedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D8F56C1F9D8B6A002F9A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D8F5751F9D8B6A002F9A44 /* WPTabbarCustomizedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D8F5671F9D8B6A002F9A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D8F5501F9D8B6A002F9A44 /* WPTabbarCustomized */;
+			targetProxy = F7D8F5661F9D8B6A002F9A44 /* PBXContainerItemProxy */;
+		};
+		F7D8F5721F9D8B6A002F9A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D8F5501F9D8B6A002F9A44 /* WPTabbarCustomized */;
+			targetProxy = F7D8F5711F9D8B6A002F9A44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7D8F5581F9D8B6A002F9A44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D8F5591F9D8B6A002F9A44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7D8F55D1F9D8B6A002F9A44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D8F55E1F9D8B6A002F9A44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7D8F5771F9D8B6A002F9A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7D8F5781F9D8B6A002F9A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D8F57A1F9D8B6A002F9A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPTabbarCustomized/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.WPTabbarCustomized;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D8F57B1F9D8B6A002F9A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPTabbarCustomized/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.WPTabbarCustomized;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7D8F57D1F9D8B6A002F9A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPTabbarCustomizedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.WPTabbarCustomizedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPTabbarCustomized.app/WPTabbarCustomized";
+			};
+			name = Debug;
+		};
+		F7D8F57E1F9D8B6A002F9A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPTabbarCustomizedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.WPTabbarCustomizedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPTabbarCustomized.app/WPTabbarCustomized";
+			};
+			name = Release;
+		};
+		F7D8F5801F9D8B6A002F9A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPTabbarCustomizedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.WPTabbarCustomizedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPTabbarCustomized;
+			};
+			name = Debug;
+		};
+		F7D8F5811F9D8B6A002F9A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPTabbarCustomizedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.WPTabbarCustomizedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPTabbarCustomized;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D8F54C1F9D8B6A002F9A44 /* Build configuration list for PBXProject "WPTabbarCustomized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D8F5771F9D8B6A002F9A44 /* Debug */,
+				F7D8F5781F9D8B6A002F9A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D8F5791F9D8B6A002F9A44 /* Build configuration list for PBXNativeTarget "WPTabbarCustomized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D8F57A1F9D8B6A002F9A44 /* Debug */,
+				F7D8F57B1F9D8B6A002F9A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D8F57C1F9D8B6A002F9A44 /* Build configuration list for PBXNativeTarget "WPTabbarCustomizedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D8F57D1F9D8B6A002F9A44 /* Debug */,
+				F7D8F57E1F9D8B6A002F9A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D8F57F1F9D8B6A002F9A44 /* Build configuration list for PBXNativeTarget "WPTabbarCustomizedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D8F5801F9D8B6A002F9A44 /* Debug */,
+				F7D8F5811F9D8B6A002F9A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7D8F5491F9D8B6A002F9A44 /* Project object */;
+}
