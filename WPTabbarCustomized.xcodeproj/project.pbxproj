@@ -108,12 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				F7D8F5541F9D8B6A002F9A44 /* AppDelegate.swift */,
-				F73359491FA02CFC0070F861 /* FourViewController.swift */,
-				F733594C1FA02CFD0070F861 /* OneViewController.swift */,
-				F733594E1FA02CFD0070F861 /* ThreeViewController.swift */,
-				F733594D1FA02CFD0070F861 /* TwoViewController.swift */,
 				F733594B1FA02CFD0070F861 /* WPTabbar.swift */,
 				F733594A1FA02CFC0070F861 /* WPTabbarController.swift */,
+				F733594C1FA02CFD0070F861 /* OneViewController.swift */,
+				F733594D1FA02CFD0070F861 /* TwoViewController.swift */,
+				F733594E1FA02CFD0070F861 /* ThreeViewController.swift */,
+				F73359491FA02CFC0070F861 /* FourViewController.swift */,
 				F7D8F5581F9D8B6A002F9A44 /* Main.storyboard */,
 				F7D8F55B1F9D8B6A002F9A44 /* Assets.xcassets */,
 				F7D8F55D1F9D8B6A002F9A44 /* LaunchScreen.storyboard */,
