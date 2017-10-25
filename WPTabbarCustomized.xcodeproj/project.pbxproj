@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F733594F1FA02CFD0070F861 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73359491FA02CFC0070F861 /* FourViewController.swift */; };
+		F73359501FA02CFD0070F861 /* WPTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F733594A1FA02CFC0070F861 /* WPTabbarController.swift */; };
+		F73359511FA02CFD0070F861 /* WPTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F733594B1FA02CFD0070F861 /* WPTabbar.swift */; };
+		F73359521FA02CFD0070F861 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F733594C1FA02CFD0070F861 /* OneViewController.swift */; };
+		F73359531FA02CFD0070F861 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F733594D1FA02CFD0070F861 /* TwoViewController.swift */; };
+		F73359541FA02CFD0070F861 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F733594E1FA02CFD0070F861 /* ThreeViewController.swift */; };
 		F7D8F5551F9D8B6A002F9A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F5541F9D8B6A002F9A44 /* AppDelegate.swift */; };
-		F7D8F5571F9D8B6A002F9A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F5561F9D8B6A002F9A44 /* ViewController.swift */; };
 		F7D8F55A1F9D8B6A002F9A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D8F5581F9D8B6A002F9A44 /* Main.storyboard */; };
 		F7D8F55C1F9D8B6A002F9A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D8F55B1F9D8B6A002F9A44 /* Assets.xcassets */; };
 		F7D8F55F1F9D8B6A002F9A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D8F55D1F9D8B6A002F9A44 /* LaunchScreen.storyboard */; };
@@ -34,9 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F73359491FA02CFC0070F861 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		F733594A1FA02CFC0070F861 /* WPTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPTabbarController.swift; sourceTree = "<group>"; };
+		F733594B1FA02CFD0070F861 /* WPTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPTabbar.swift; sourceTree = "<group>"; };
+		F733594C1FA02CFD0070F861 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		F733594D1FA02CFD0070F861 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		F733594E1FA02CFD0070F861 /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 		F7D8F5511F9D8B6A002F9A44 /* WPTabbarCustomized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPTabbarCustomized.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D8F5541F9D8B6A002F9A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7D8F5561F9D8B6A002F9A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7D8F5591F9D8B6A002F9A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7D8F55B1F9D8B6A002F9A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7D8F55E1F9D8B6A002F9A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				F7D8F5541F9D8B6A002F9A44 /* AppDelegate.swift */,
-				F7D8F5561F9D8B6A002F9A44 /* ViewController.swift */,
+				F73359491FA02CFC0070F861 /* FourViewController.swift */,
+				F733594C1FA02CFD0070F861 /* OneViewController.swift */,
+				F733594E1FA02CFD0070F861 /* ThreeViewController.swift */,
+				F733594D1FA02CFD0070F861 /* TwoViewController.swift */,
+				F733594B1FA02CFD0070F861 /* WPTabbar.swift */,
+				F733594A1FA02CFC0070F861 /* WPTabbarController.swift */,
 				F7D8F5581F9D8B6A002F9A44 /* Main.storyboard */,
 				F7D8F55B1F9D8B6A002F9A44 /* Assets.xcassets */,
 				F7D8F55D1F9D8B6A002F9A44 /* LaunchScreen.storyboard */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D8F5571F9D8B6A002F9A44 /* ViewController.swift in Sources */,
 				F7D8F5551F9D8B6A002F9A44 /* AppDelegate.swift in Sources */,
+				F73359501FA02CFD0070F861 /* WPTabbarController.swift in Sources */,
+				F73359541FA02CFD0070F861 /* ThreeViewController.swift in Sources */,
+				F73359521FA02CFD0070F861 /* OneViewController.swift in Sources */,
+				F73359531FA02CFD0070F861 /* TwoViewController.swift in Sources */,
+				F73359511FA02CFD0070F861 /* WPTabbar.swift in Sources */,
+				F733594F1FA02CFD0070F861 /* FourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
